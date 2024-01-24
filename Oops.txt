@@ -1,0 +1,44 @@
+                                               SOLID Principles
+SOLID principles are an object-oriented approach that are applied to software structure design. It is conceptualized by Robert C. Martin (also known as Uncle Bob). These five principles have changed the world of object-oriented programming.
+                                 1.Single Responsibility Principle (SRP)
+                                 2.Open-Closed Principle (OCP)
+                                 3.Liskov Substitution Principle (LSP)
+                                 4.Interface Segregation Principle (ISP)
+                                 5.Dependency Inversion Principle (DIP)
+                                         Oops Concepts:
+ Association:A general term for any relationship between objects.
+It indicates that objects of one class are connected to objects of another class.
+Association can be undirectional or bidirectional.
+There can be four types of association between the objects:
+1.One to One : For example, One country can have one prime minister .
+2.One to Many : For example,  one department can employ several employees.
+3.Many to One : For example,Many employees work in the same company so all the working employees have the same company address. Many employees have one address.
+4.Many to Many : For example,Many Employee can work in many duty_shifts.
+Aggregation:Aggregation is a type of association in object-oriented programming that represents a "has-a" relationship between two classes. 
+In aggregation, one class contains an instance of another class, but the contained class can exist independently of the container class.  
+Keyword is"Has A".And symbol is "diamond without filling with arrow".
+             Ex:Git and Repositority
+Composition:A composition in Java between two objects associated with each other exists when there is a strong relationship between one class and another. Other classes cannot exist without the owner or parent class. 
+Keyword is"Has A".And symbol is " Filled diamond with arrow".
+             Ex:Bank and Accounts,Books and Author
+Inheritance:Inheritance is a fundamental concept in object-oriented programming that allows a new class (subclass ) to inherit properties and behaviors from an existing class (superclass).
+ It represents"IS A".and symbol is "Up arrow".
+       They are Four types,
+  1.Single Inheritance:A class can inherit from only one superclass.
+  2.Multi level Inheritance:A class inherits from another class, and then a third class inherits from the second class.
+   3.Hierarchical Inheritance:Multiple classes inherit from a single superclass.
+   4.Hybrid Inheritance:A combination of two or more types of inheritance.
+   Ex:Father and Son
+Polymorphism:Polymorphism is a fundamental concept in object-oriented programming that allows objects of different types to be treated as objects of a common base type. 
+     Types of Polymorphisms:
+        1.Compile-time Polymorphism:Also known as method overloading, where multiple methods in the same class have the same name but different parameter lists.
+         2.Run-time Polymorphism:Achieved through method overriding and interfaces, allowing a method to behave differently based on the actual type of the object at runtime.
+    Ex:Coding(java/python).
+  Encapsulation:Encapsulation is defined as the wrapping up of data under a single unit. It is the mechanism that binds together code and the data it manipulates.
+   Ex:Capsule.
+Abstraction:Abstraction is the process of simplifying complex systems by modeling classes based on the essential properties and behaviors they exhibit, while ignoring or hiding unnecessary details. In object-oriented programming, abstraction involves creating abstract classes or interfaces that define a set of methods or properties without specifying their implementation.
+   Ex:Bank Account, Movie.
+
+
+
+
